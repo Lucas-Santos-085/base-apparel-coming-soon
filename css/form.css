@@ -12,7 +12,7 @@
 }
 
 .input {
-  width: 65%;
+  width: 70%;
   border: none;
   font-size: 0.9rem;
   margin: 1rem 0 1rem 1rem;
@@ -39,6 +39,6 @@
 }
 
 .alert-error {
-  width: 12%;
+  margin-right: 0.5rem;
   margin-top: 0.8rem;
 }
