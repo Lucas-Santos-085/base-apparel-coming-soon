@@ -4,3 +4,7 @@
   --dark-grayish-red: #413a3a;
   --josefin-sans: "Josefin Sans";
 }
+
+.app {
+  background: linear-gradient(150.03deg, #ffffff 0%, #fff4f4 84.51%);
+}

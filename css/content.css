@@ -1,6 +1,28 @@
+.content {
+  padding: 0 2rem;
+  font-family: var(--josefin-sans);
+}
 .content__title {
   text-transform: uppercase;
-  font-family: var(--josefin-sans);
   text-align: center;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.6rem;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.title__desatured--red {
+  color: var(--desaturade-red);
+  font-weight: 300;
+}
+
+.title__dark--red {
+  color: var(--dark-grayish-red);
+  font-weight: 600;
+}
+
+.content__text {
+  color: var(--desaturade-red);
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.6;
 }
