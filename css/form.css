@@ -1,22 +1,39 @@
 ::-webkit-input-placeholder {
   color: var(--desaturade-red);
   opacity: 0.5;
-  text-align: left;
-  padding: 1rem;
 }
 
-form {
-  border: 1px solid var(--desaturade-red);
+.form__email {
+  border: 1px solid rgb(206, 151, 151, 0.5);
   border-radius: 1.5rem;
   height: 3rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .input {
-  width: 70%;
+  width: 77%;
   border: none;
   font-size: 0.9rem;
-  margin: 1rem;
+  margin: 1rem 0 1rem 1rem;
   color: var(--dark-grayish-red);
   font-weight: 400;
   font-family: var(--josefin-sans);
+  outline: 0;
+}
+
+.submit {
+  width: 23%;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border: none;
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+}
+
+.error-message {
+  margin: 0.5rem 0 1rem 1.2rem;
+  color: var(--soft-read);
+  font-weight: 400;
+  position: absolute;
+  font-size: 0.9rem;
 }
