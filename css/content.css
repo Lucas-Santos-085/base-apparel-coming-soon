@@ -1,0 +1,6 @@
+.content__title {
+  text-transform: uppercase;
+  font-family: var(--josefin-sans);
+  text-align: center;
+  letter-spacing: 0.3rem;
+}

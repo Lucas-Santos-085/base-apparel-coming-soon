@@ -1,0 +1,13 @@
+.header {
+  background: linear-gradient(150.03deg, #ffffff 0%, #fff4f4 84.51%);
+  align-items: center;
+  display: flex;
+  /*grid-area: header;*/
+  padding: 0 2rem;
+  height: 80px;
+}
+
+.header__logo {
+  width: 100px;
+  height: 20.89px;
+}
