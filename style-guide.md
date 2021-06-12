@@ -49,3 +49,12 @@ Email Address
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+
+      <form class="form" action="">
+        <input class="form-input" type="text" data-form-input>
+
+        <input type="datetime-local" placeholder="preencha 2020-02-23" data-form-date >
+        <button class="form-button" data-form-button> Novo Item </button>
+      </form>
+
+<span class="input-mensagem-erro">Please provide a valid email</span>

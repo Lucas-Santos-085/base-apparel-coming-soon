@@ -1,0 +1,22 @@
+::-webkit-input-placeholder {
+  color: var(--desaturade-red);
+  opacity: 0.5;
+  text-align: left;
+  padding: 1rem;
+}
+
+form {
+  border: 1px solid var(--desaturade-red);
+  border-radius: 1.5rem;
+  height: 3rem;
+}
+
+.input {
+  width: 70%;
+  border: none;
+  font-size: 0.9rem;
+  margin: 1rem;
+  color: var(--dark-grayish-red);
+  font-weight: 400;
+  font-family: var(--josefin-sans);
+}
