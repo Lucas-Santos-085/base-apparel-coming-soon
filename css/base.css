@@ -9,16 +9,13 @@
   background: linear-gradient(135deg, #ffffff 0%, #fff4f4 84.51%);
   font-family: var(--josefin-sans);
   overflow-x: hidden;
-
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
 }
 
 @media screen and (min-width: 1024px) {
-  .app {
+  .container {
     display: grid;
     grid-template-columns: 58% 42%;
-    height: 100vh;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 120px 85vh;
   }
 }

@@ -16,7 +16,7 @@
 }
 
 .input {
-  width: 70%;
+  width: 65%;
   border: none;
   font-size: 0.9rem;
   margin: 1rem 0 1rem 1rem;
@@ -32,6 +32,8 @@
   border-radius: 1.5rem;
   border: none;
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);
+  margin-left: 0.3rem;
 }
 
 .error-message {
@@ -43,13 +45,17 @@
 }
 
 .alert-error {
-  margin-right: 0.5rem;
   margin-top: 0.8rem;
 }
 
 @media screen and (min-width: 1024px) {
   .submit {
-    max-width: 90px;
+    max-width: 100px;
+  }
+
+  .submit:hover {
+    opacity: 0.6;
+    box-shadow: 0px 15px 20px rgba(198, 110, 110);
   }
 
   .input {

@@ -32,8 +32,7 @@
   .content {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    padding: 2rem 0;
-    margin: 1rem 8rem;
+    margin: 1rem 6rem;
   }
 
   .content__title {
@@ -50,7 +49,7 @@
 
 @media screen and (min-width: 1440px) {
   .content {
-    margin: 2rem 12rem;
+    margin: 2rem 10rem;
   }
 
   .content__title {
