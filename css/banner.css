@@ -4,3 +4,13 @@
   padding-top: 66.5%;
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    background: url("../images/hero-desktop.jpg") center / cover no-repeat;
+    height: 100%;
+    margin-bottom: 0;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+  }
+}

@@ -27,3 +27,17 @@
   line-height: 1.6;
   margin-bottom: 2rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .content {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    /*height: 100%;*/
+    padding: 1rem 8rem;
+  }
+
+  .content__title,
+  .content__text {
+    text-align: left;
+  }
+}

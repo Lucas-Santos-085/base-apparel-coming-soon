@@ -10,3 +10,12 @@
   font-family: var(--josefin-sans);
   overflow-x: hidden;
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 58% 42%;
+    grid-template-rows: 25% 65% 10%;
+    max-height: 800px;
+  }
+}
