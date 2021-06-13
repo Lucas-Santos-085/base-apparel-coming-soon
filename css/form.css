@@ -46,3 +46,13 @@
   margin-right: 0.5rem;
   margin-top: 0.8rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .submit {
+    max-width: 90px;
+  }
+
+  .input {
+    font-size: 1rem;
+  }
+}

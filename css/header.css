@@ -2,14 +2,11 @@
   align-items: center;
   display: flex;
   padding: 2rem;
-  /*height: 85px;*/
 }
 
 .header__logo {
   width: 32%;
-  max-width: 150px;
-  /*width: 100px;
-  height: 20.89px;*/
+  max-width: 158px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -17,8 +14,13 @@
     display: grid;
     grid-column: 1 / 2;
     max-height: 100px;
-    /*grid-row: 1 / 2;*/
-    /*max-height: 100%;*/
-    /*padding: 1rem 5rem;*/
+    padding: 2rem 0;
+    margin-left: 8rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    margin-left: 12rem;
   }
 }
