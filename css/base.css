@@ -9,13 +9,34 @@
   background: linear-gradient(135deg, #ffffff 0%, #fff4f4 84.51%);
   font-family: var(--josefin-sans);
   overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
-  .container {
+  .app {
     display: grid;
     grid-template-columns: 58% 42%;
-    grid-template-rows: 25% 65% 10%;
-    max-height: 800px;
+    height: 100vh;
+    grid-template-rows: 25% 75%;
+
+    /*max-height: 800px;*/
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .app-test {
+    display: grid; /* Indica que vai trabalhar com grid */
+    grid-template-areas: /*  especifica no código, que nosso template será dividido nas áreas descritas */
+      "cabecalho"
+      "conteudo"
+      "rodape";
+    grid-template-columns: auto; /* Define tamanho das colunas */
+    grid-template-rows: 50px auto auto; /* Define tamanho das linhas (cabecalho, conteudo, rodape) */
+
+    background: linear-gradient(135deg, #ffffff 0%, #fff4f4 84.51%);
+    font-family: var(--josefin-sans);
+    overflow-x: hidden;
   }
 }

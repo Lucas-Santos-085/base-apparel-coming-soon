@@ -1,21 +1,24 @@
 .header {
   align-items: center;
   display: flex;
-  padding: 0 2rem;
-  height: 85px;
+  padding: 2rem;
+  /*height: 85px;*/
 }
 
 .header__logo {
-  width: 100px;
-  height: 20.89px;
+  width: 32%;
+  max-width: 150px;
+  /*width: 100px;
+  height: 20.89px;*/
 }
 
 @media screen and (min-width: 1024px) {
   .header {
     display: grid;
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    height: 100%;
-    padding: 1rem 8rem;
+    max-height: 100px;
+    /*grid-row: 1 / 2;*/
+    /*max-height: 100%;*/
+    /*padding: 1rem 5rem;*/
   }
 }
