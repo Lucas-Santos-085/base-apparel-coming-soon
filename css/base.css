@@ -4,18 +4,36 @@
   --dark-grayish-red: #413a3a;
   --josefin-sans: "Josefin Sans";
 }
-
 .app {
+  overflow-x: hidden;
+}
+.card {
   background: linear-gradient(135deg, #ffffff 0%, #fff4f4 84.51%);
   font-family: var(--josefin-sans);
-  overflow-x: hidden;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 @media screen and (min-width: 1024px) {
   .container {
     display: grid;
     grid-template-columns: 58% 42%;
-    grid-template-rows: 120px 85vh;
+    grid-template-rows: 15% 85%;
+    max-height: 800px;
+    background: url("../images/bg-pattern-desktop.svg") center / cover no-repeat;
+  }
+
+  .app {
+    background: url("../images/background.jpg") center / cover no-repeat;
+    width: 100%;
+    position: center;
+    height: 100vh;
+    position: relative;
+  }
+
+  .card {
+    /*position: absolute;*/
+    height: 800px;
+    max-width: 1440px;
+    margin: 5% auto;
   }
 }
