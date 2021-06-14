@@ -10,7 +10,6 @@
 .card {
   background: linear-gradient(135deg, #ffffff 0%, #fff4f4 84.51%);
   font-family: var(--josefin-sans);
-  /*height: 100vh;*/
 }
 
 @media screen and (min-width: 1024px) {
@@ -26,13 +25,11 @@
     background: url("../images/background.jpg") center / cover no-repeat;
     width: 100%;
     position: center;
-    height: 100vh;
     position: relative;
   }
 
   .card {
-    /*position: absolute;*/
-    height: 800px;
+    max-height: 800px;
     max-width: 1440px;
     margin: 5% auto;
   }

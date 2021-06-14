@@ -20,6 +20,6 @@
 
     function insertErrorIcon (){
         const img = document.createElement("img");
-        img.setAttribute('src', 'js/icon-error.svg');
+        img.setAttribute('src', './images/icon-error.svg');
         divError.appendChild(img);
     }
