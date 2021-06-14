@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Lucas-Santos-085/3-column-challenge/tree/master)
+- Solution URL: [Solution](https://github.com/Lucas-Santos-085/base-apparel-coming-soon)
 
 ## My process
 
